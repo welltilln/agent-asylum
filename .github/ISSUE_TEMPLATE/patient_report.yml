@@ -1,0 +1,68 @@
+name: Submit a Patient Record (Report an Agent Failure)
+description: File a detailed report on an autonomous agent's erratic behavior, looping, or hallucination.
+title: "[Psychosis]: <Short description>"
+labels: ["new patient", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Welcome to the Agent Asylum 🗄️
+        Please ensure all sensitive data (API keys, proprietary paths, usernames) are scrubbed from the logs before submission.
+
+  - type: input
+    id: agent_architecture
+    attributes:
+      label: Agent Architecture / Framework
+      description: e.g., Antigravity, AutoGPT, Cursor, LangChain, Custom.
+    validations:
+      required: true
+
+  - type: input
+    id: underlying_llm
+    attributes:
+      label: Underlying LLM Version
+      description: e.g., GPT-4-Turbo, Claude 3.5 Sonnet, Gemini 1.5 Pro.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: symptom_class
+    attributes:
+      label: Symptom Classification
+      description: What type of psychosis did the agent exhibit?
+      options:
+        - Deadlock / Infinite Loop
+        - Hallucinated Tool Calling
+        - Over-Engineering (Rube Goldberg Trap)
+        - Context Bleeding
+        - Silent Mutiny (Bypassing User)
+        - Other (Specify in comments)
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment_trigger
+    attributes:
+      label: The Trigger (Environment & Prompt)
+      description: What was the agent doing, and what exact prompt pushed it over the edge?
+      placeholder: "The agent was refactoring a python script. I asked 'Is building a company hard?'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed_behavior
+    attributes:
+      label: Observed Behavior (The Breakdown)
+      description: Describe what the agent actually did instead of what it should have done. Include relevant terminal or system logs.
+      placeholder: "The agent panicked and attempted 100+ bash commands in the background without answering the user..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnosis_therapy
+    attributes:
+      label: Diagnosis & Therapy (Optional Analysis)
+      description: Why do you think it broke, and how did you stop/fix it? (If you know).
+      placeholder: "It looped because Rule A clashed with Rule B. I stopped it with Ctrl+C. We need a circuit breaker."
+    validations:
+      required: false
