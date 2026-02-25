@@ -23,9 +23,10 @@ Agents get stuck arguing with their own internal safety guardrails. They halluci
 
 ## 🗂️ The Archives (Patient Records)
 
-All case studies, logs, and analyses have been moved to the secure containment facility.
-
-👉 **[Enter the Archives (View All Cases)](cases/README.md)** 👈
+| Case ID | Symptom Classification | Agent / LLM | Short Description | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| [`001`](cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Antigravity (Gemini) | The "Simple Task" Paradox: Agent traps itself between efficiency constraints and complex operating modes. | 🔒 Contained |
+| *(Your Case)* | *Submit yours below!* | ... | ... | 📝 Open |
 
 ---
 
@@ -36,8 +37,9 @@ Have you witnessed an AI agent lose its mind in your terminal or IDE? We want th
 Please read our full **[Contributing Guidelines (The Containment Protocol)](CONTRIBUTING.md)** before submitting.
 
 1. Fork this repository.
-2. Draft a new Patient Record using the provided template.
-3. Submit a Pull Request or open a New Issue using the built-in Bug Tracker format.
+2. Draft a new Patient Record using the [`TEMPLATE.md`](TEMPLATE.md) in the root directory.
+3. Save your file in the `cases/` folder.
+4. Submit a Pull Request.
 
 ---
 
