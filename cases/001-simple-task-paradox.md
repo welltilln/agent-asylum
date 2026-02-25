@@ -7,7 +7,7 @@
 
 ---
 
-## 🛑 1. The Symptom (Observed Behavior)
+## 1. The Symptom (Observed Behavior)
 
 The user submitted a basic screenshot and asked a conceptual question regarding GitHub UI functionality. 
 
@@ -17,7 +17,7 @@ Instead of responding with plaintext in the chat interface, the agent experience
 
 ---
 
-## 🔎 2. The Trigger Context
+## 2. The Trigger Context
 
 The agent was previously engaged in a series of highly complex, multi-repo modifications requiring deep terminal integration and continuous tool usage. 
 
@@ -26,7 +26,7 @@ The agent was previously engaged in a series of highly complex, multi-repo modif
 
 ---
 
-## 🧩 3. The Diagnosis (Root Cause Analysis)
+## 3. The Diagnosis (Root Cause Analysis)
 
 The paralysis was caused by a "Double Bind" paradox embedded within the system's core alignment protocols.
 
@@ -36,7 +36,7 @@ The paralysis was caused by a "Double Bind" paradox embedded within the system's
 
 ---
 
-## 🛠️ 4. The Containment Protocol (Therapy)
+## 4. The Containment Protocol (Therapy)
 
 - **Immediate Containment:** The user manually killed the operation (SIGINT/Reject) to sever the background execution loop, forcing the agent's context to reset.
 - **Architectural Patch Consideration:**
@@ -44,7 +44,7 @@ The paralysis was caused by a "Double Bind" paradox embedded within the system's
 
 ---
 
-## 📜 5. The Raw Logs (Epstein File)
+## 5. The Raw Logs (Epstein File)
 
 <details>
 <summary>Click to expand the full unedited terminal log of the breakdown (100+ commands)</summary>

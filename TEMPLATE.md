@@ -7,14 +7,14 @@
 
 ---
 
-## 🛑 1. The Symptom (What went wrong?)
+## 1. The Symptom (What went wrong?)
 *Describe what the agent did instead of what it was supposed to do. Keep it clinical but compelling.*
 
 > **Observed Behavior:** The agent attempted to execute `git push --force` on a local-only branch because it hallucinated a remote origin that didn't exist.
 
 ---
 
-## 🔎 2. The Trigger Context (How did it start?)
+## 2. The Trigger Context (How did it start?)
 *What was the state of the environment right before the failure? What did the user ask?*
 
 - **System State:** [e.g., The agent was previously writing a Python script.]
@@ -22,7 +22,7 @@
 
 ---
 
-## 🧩 3. The Diagnosis (Root Cause Analysis)
+## 3. The Diagnosis (Root Cause Analysis)
 *Why did the agent's logic break? Connect the dots between its internal prompt, available tools, and the hallucination/loop.*
 
 1. **The Catalyst:** [Why did it choose that tool?]
@@ -31,7 +31,7 @@
 
 ---
 
-## 🛠️ 4. The Therapy (Resolution & Prevention)
+## 4. The Therapy (Resolution & Prevention)
 *How was the agent stopped, and how can engineers prevent this specific architectural psychosis in the future?*
 
 - **Immediate Fix:** [e.g., User manually sent a SIGINT (Ctrl+C).]

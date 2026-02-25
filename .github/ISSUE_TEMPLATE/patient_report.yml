@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## Welcome to the Agent Asylum 🗄️
+        ## Welcome to the Agent Asylum
         Please ensure all sensitive data (API keys, proprietary paths, usernames) are scrubbed from the logs before submission.
 
   - type: input

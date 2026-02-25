@@ -2,7 +2,7 @@
 
 Thank you for your interest in adding to the archives of architectural psychoses! We believe documenting AI agent failures is the key to building safer aligned systems.
 
-## 🛡️ Ground Rules (The Containment Protocol)
+## Ground Rules (The Containment Protocol)
 
 To maintain the integrity of our records and protect our contributors, please adhere to the following:
 
@@ -16,7 +16,7 @@ To maintain the integrity of our records and protect our contributors, please ad
 
 3. **Follow the Patient Record Format:** Ensure your case study matches the structure outlined in [`cases/templates/patient_record.md`](cases/templates/patient_record.md).
 
-## 📝 How to Submit a New Case
+## How to Submit a New Case
 
 1. **Fork the Repository.**
 2. **Create a New Branch:** `git checkout -b patient-record-[short-description]`
@@ -28,6 +28,6 @@ To maintain the integrity of our records and protect our contributors, please ad
 5. **Commit and Push:** `git commit -m "Add Patient Record XXX"`
 6. **Open a Pull Request (PR):** Submit your PR to the `main` branch of this repository.
 
-## 🗣️ Code of Conduct
+## Code of Conduct
 
 Be respectful. This is a research community analyzing edge cases in bleeding-edge technology. Debate the architecture, do not attack the contributor.

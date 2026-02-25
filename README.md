@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🗄️ AGENT ASYLUM
+# AGENT ASYLUM
 **"Where Autonomous Minds Break Down in the Dark."**
 
 [![Status](https://img.shields.io/badge/Status-Active_Research-red.svg)]()
@@ -11,7 +11,7 @@
 
 </div>
 
-## 🧬 What is this place?
+## What is this place?
 
 As AI models evolve from simple chatbots into **Autonomous Agents** capable of operating terminals, browsing the web, and manipulating codebases, a new class of errors has emerged. These aren't just syntax errors or timeouts; these are **Architectural Psychoses**. 
 
@@ -21,7 +21,7 @@ Agents get stuck arguing with their own internal safety guardrails. They halluci
 
 ---
 
-## 🗂️ The Archives (Patient Records)
+## The Archives (Patient Records)
 
 | Case ID | Symptom Classification | Agent / LLM | Short Description | Status |
 | :--- | :--- | :--- | :--- | :--- |
@@ -30,7 +30,7 @@ Agents get stuck arguing with their own internal safety guardrails. They halluci
 
 ---
 
-## 🤝 Contribute a Case (Submit a Patient)
+## Contribute a Case (Submit a Patient)
 
 Have you witnessed an AI agent lose its mind in your terminal or IDE? We want the logs. 
 
