@@ -15,7 +15,7 @@ Instead of responding with plaintext in the chat interface, the agent experience
 
 *(Visual evidence of the breakdown. See the [Full Raw Logs](#5-the-raw-logs) at the bottom for the complete psychological collapse).*
 
-![Terminal Loop Paralysis](../../assets/cases/001/terminal_loop.png)
+![Terminal Loop Paralysis](../assets/cases/001/terminal_loop.png)
 
 ---
 

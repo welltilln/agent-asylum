@@ -14,17 +14,17 @@ To maintain the integrity of our records and protect our contributors, please ad
 
 2. **Maintain Clinical Objectivity:** We are documenting failures, not roasting AI models. Keep the tone analytical, but feel free to lean into the "clinical/asylum" thematic style.
 
-3. **Follow the Patient Record Format:** Ensure your case study matches the structure outlined in [`cases/templates/patient_record.md`](cases/templates/patient_record.md).
+3. **Follow the Patient Record Format:** Ensure your case study matches the structure outlined in [`TEMPLATE.md`](TEMPLATE.md).
 
 ## How to Submit a New Case
 
 1. **Fork the Repository.**
 2. **Create a New Branch:** `git checkout -b patient-record-[short-description]`
 3. **Draft the Case:**
-   - Copy `cases/templates/patient_record.md`.
+   - Copy `TEMPLATE.md` to a new file in the `cases/` directory.
    - Rename the file following the format: `cases/XXX-short-description.md` (where `XXX` is the next sequential number).
    - Fill in the sections thoroughly.
-4. **Update the Index:** Add a row for your new case in `cases/README.md`.
+4. **Update the Index:** Add a row for your new case in `README.md`.
 5. **Commit and Push:** `git commit -m "Add Patient Record XXX"`
 6. **Open a Pull Request (PR):** Submit your PR to the `main` branch of this repository.
 
