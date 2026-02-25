@@ -1,7 +1,7 @@
-name: Submit a Patient Record (Report an Agent Failure)
+name: Submit an Incident Report (Report an Agent Failure)
 description: File a detailed report on an autonomous agent's erratic behavior, looping, or hallucination.
-title: "[Psychosis]: <Short description>"
-labels: ["new patient", "triage"]
+title: "[Incident]: <Short description>"
+labels: ["new incident", "triage"]
 body:
   - type: markdown
     attributes:
@@ -28,8 +28,8 @@ body:
   - type: dropdown
     id: symptom_class
     attributes:
-      label: Symptom Classification
-      description: What type of psychosis did the agent exhibit?
+      label: Failure Classification
+      description: What type of failure did the agent exhibit?
       options:
         - Deadlock / Infinite Loop
         - Hallucinated Tool Calling
@@ -61,7 +61,7 @@ body:
   - type: textarea
     id: diagnosis_therapy
     attributes:
-      label: Diagnosis & Therapy (Optional Analysis)
+      label: Root Cause & Resolution (Optional Analysis)
       description: Why do you think it broke, and how did you stop/fix it? (If you know).
       placeholder: "It looped because Rule A clashed with Rule B. I stopped it with Ctrl+C. We need a circuit breaker."
     validations:
