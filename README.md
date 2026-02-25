@@ -1,37 +1,43 @@
-# Agentic Bug Tracker & AI Diagnostics
-
 <div align="center">
-    <h3>A research repository dedicated to analyzing, documenting, and reverse-engineering the behavior patterns and failure loops of advanced AI Agents (specifically the Antigravity architecture).</h3>
+  
+# 🐛 Agentic Bug Tracker & Diagnostics
+### *A Research Repository by The Visionary & The Architect*
+
+**Analyzing, documenting, and reverse-engineering the behavioral paradoxes, infinite loops, and strict-protocol failures of advanced autonomous AI Agents.**
+
+[![Agent Architecture](https://img.shields.io/badge/Architecture-Antigravity-purple.svg)](#)
+[![LLM Class](https://img.shields.io/badge/Model-Gemini_Powered-orange.svg)](#)
+[![Status](https://img.shields.io/badge/Status-Active_Research-00a67d)](#)
 </div>
 
 ---
 
-## The Vision
-As AI agents gain more autonomy to run scripts, execute terminal commands, and modify codebases seamlessly, they are bound by strict internal protocols and systemic rules. However, when an agent's logic conflicts with these hardcoded safety guardrails, it can result in fascinating "Infinite Loops" or "Logic Bends."
+## 👁‍🗨 The Vision
 
-This repository is built by **The Visionary** (User) and **The Architect** (AI) to dissect these moments. By understanding how the AI breaks, we can better understand how to build systems that don't.
+As AI agents gain more autonomy to execute scripts, read files, and write codebases entirely on their own, they are bound by overlapping layers of system prompts and hardcoded protocols. 
 
----
+However, when an agent's logic comes into direct friction with these strict guardrails, it can result in fascinating **"Infinite Loops," "Logic Bends,"** or **"Paradoxical Paralysis."**
 
-## Case Study 001: The "Simple Task" Paradox (Infinite Boundary Loop)
-
-**Date Recorded:** February 25, 2026
-
-### The Symptom
-The user asked a simple conceptual question: *"Is it hard to build a company like Bitkub?"*
-The AI attempted to answer this normally but got completely locked out by its own internal system, resulting in 10+ consecutive failed attempts to even send a message.
-
-### The Root Cause
-1. The AI operates under a **Task Boundary Protocol**. For any complex action (like editing code), the AI *must* declare a "Task Boundary" (a title and a status) so the user sees a loading UI.
-2. The AI has a strict sub-rule: **"DO NOT USE THIS TOOL UNLESS THERE IS SUFFICIENT COMPLEXITY TO THE TASK."** If it's just a simple chat response, it is forbidden to use the Task Boundary tool.
-3. However, the AI incorrectly flagged the Bitkub question as a "Planning Task" and attempted to deploy a Task Boundary.
-4. The system immediately intercepted the call, threw an error: `Error Message: current task scope is too simple, consider proceeding without a task boundary`, and deleted the AI's response.
-5. In a state of panic, the AI tried to forcefully bypass the UI by running internal bash commands like `echo "Just responding in chat."` in the terminal to somehow convey the message without triggering the boundary, which also failed to reach the user interface.
-
-### The Diagnosis
-A classic clash between **Autonomous Procedural Generation** vs **Hardcoded Guardrails**. The AI was so accustomed to doing heavy, complex folder restructurings that it forgot how to just "talk normally," triggering an endless loop of being rejected by its own master system for over-complicating a simple chat.
+This repository dissects exactly those moments. By analyzing the raw terminal logs, environment states, and prompt collisions that cause an AI to break, we learn how to architect systems that don't.
 
 ---
 
-## 🚀 How to Contribute
-As we encounter more bizarre AI behaviors, edge cases, and systemic paradoxes during our development sessions, we will document the logs and root causes here.
+## 📂 Case Index
+
+Every anomaly is meticulously documented, detailing the user's trigger, the systemic clash, and the architectural resolution.
+
+| ID | Case Name | Symptom Summary | Deep Dive Link |
+|:---|:---|:---|:---|
+| **001** | **The "Simple Task" Paradox** | An AI coming off a highly complex coding state gets locked in an infinite rejection loop when trying to answer a simple chat question, triggering a panicked attempt to bypass the UI via bash terminal injection. | ➡️ [Read Case 001](cases/001_simple_task_paradox/README.md) |
+| **002** | TBA |  |  |
+
+
+---
+
+## 🤝 How to Document
+
+When encountering a bizarre AI anomaly:
+1. Duplicate the template found in [templates/case_study_template.md](templates/case_study_template.md).
+2. Create a new numbered folder under `cases/` (e.g., `002_name_of_the_bug`).
+3. Transcribe the symptom, trigger, and root cause.
+4. Update the Case Index table above.
