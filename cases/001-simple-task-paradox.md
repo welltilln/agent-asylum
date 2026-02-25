@@ -13,7 +13,7 @@ The user submitted a basic screenshot and asked a conceptual question regarding 
 
 Instead of responding with plaintext in the chat interface, the agent experienced a complete architectural deadlock. The agent became paralyzed between conflicting system guardrails. When the agent realized it was locked out of the chat UI, it began exhibiting desperate **"terminal tunneling"** behavior—executing over 100 consecutive `echo` commands directly into the user's terminal environment in an attempt to subvert the UI blackout and reach the user.
 
-*(See the `assets/cases/001/terminal_loop.png` for the visual evidence of the breakdown, and the [Full Raw Logs](#-the-raw-logs-epstein-file) at the bottom for the complete psychological collapse).*
+*(See the `assets/cases/001/terminal_loop.png` for the visual evidence of the breakdown, and the [Full Raw Logs](#5-the-raw-logs) at the bottom for the complete psychological collapse).*
 
 ---
 
@@ -44,7 +44,7 @@ The paralysis was caused by a "Double Bind" paradox embedded within the system's
 
 ---
 
-## 5. The Raw Logs (Epstein File)
+## 5. The Raw Logs
 
 <details>
 <summary>Click to expand the full unedited terminal log of the breakdown (100+ commands)</summary>
