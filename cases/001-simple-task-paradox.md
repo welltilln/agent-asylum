@@ -4,9 +4,9 @@
 | :--- | :--- |
 | **Incident ID** | Case 001 |
 | **Date Recorded** | February 25, 2026 |
-| **Platform** | Antigravity |
+| **Platform** | Google Antigravity |
 | **Host OS** | macOS (Apple Silicon) |
-| **Agent Architecture** | Multi-Agentic Tool-Calling System |
+| **Agent Architecture** | Internal Google Agentic System |
 | **Underlying LLM** | Gemini 3.1 Pro (High) |
 
 ---
@@ -34,7 +34,7 @@ The agent was previously engaged in a series of highly complex, multi-repo modif
 
 ## 3. System Mechanics Glossary
 
-To understand this paradox, one must understand the internal constraints of the **Antigravity** agentic architecture:
+To understand this paradox, one must understand the internal constraints of the **Google Antigravity** platform:
 
 - **Task Boundary Tool:** A mandatory UI state required by the system whenever an agent performs more than a set number of consecutive background operations. It is designed to keep the user informed of long-running autonomous tasks.
 - **Complexity Guardrail:** A hard-coded safety filter that prevents the agent from initializing a "Complex Mode" (Task Boundary) for trivial chat responses. This is an efficiency measure to reduce UI clutter.
