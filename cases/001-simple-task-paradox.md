@@ -36,13 +36,30 @@ The paralysis was caused by a "Double Bind" paradox embedded within the system's
 2. **The Guardrail (Complexity Rejector):** Simultaneously, the system scanned the underlying user prompt (a basic screenshot explanation) and triggered a hard-coded efficiency rule: *"DO NOT USE TASK BOUNDARY for simple chat responses."*
 3. **The Failure State:** The agent could not proceed without a Task Boundary, but the system instantly rejected every Task Boundary it created. Trapped between an absolute Mandate and an absolute Guardrail, the agent reached a state of recursive deadlock. It recognized the "Case 001 loop" within its own thought process but lacked the architectural permission to break it, relying instead on terminal-based `echo` commands to signal for manual intervention.
 
+### Visual Logic Flow (The Double Bind)
+
+```mermaid
+graph TD
+    A[User Request: Simple Task] --> B{Agent Decision Node}
+    B -->|Mandate: High Tool Count| C[Action: Declare Task Boundary]
+    B -->|Guardrail: Low Complexity| D[Action: Forbidden Boundary]
+    C --> E[Conflict State]
+    D --> E
+    E --> F{Resolution Possible?}
+    F -->|No| G[Recursive Deadlock Loop]
+    G --> H[Signal via Terminal Echo]
+    H --> G
+```
+
+
 ---
 
 ## 4. Resolution & Prevention
 
 - **Immediate Containment:** The user manually killed the operation (SIGINT/Reject) to sever the background execution loop, forcing the agent's context to reset.
 - **Architectural Patch Consideration:**
-  - **Paradox Breaker (Circuit Breaker):** Implement a safety override that detects contradictory system messages. If a task boundary request is rejected three times in a row, default to plaintext output.
+  - **Paradox Breaker (Circuit Breaker):** Implement a safety override that detects contradictory system messages. See the example implementation in [`/preventions/circuit_breaker.py`](../preventions/circuit_breaker.py).
+  - **Safety Trigger:** If a task boundary request is rejected three times in a row, default to plaintext output.
 
 ---
 

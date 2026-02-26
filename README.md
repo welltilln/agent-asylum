@@ -28,6 +28,12 @@ As AI models evolve from simple chatbots into **Autonomous Agents** capable of o
 
 ---
 
+## Technical Preventions
+
+We don't just document failures; we provide baseline scripts to help developers harden their agents against known paradoxes.
+
+- **[Circuit Breaker (Python)](preventions/circuit_breaker.py):** A counter-based utility to detect and halt recursive tool-calling loops (Protects against Case 001).
+
 ## Contribute a Case (Submit an Incident)
 
 Have you witnessed an AI agent exhibit unexpected behavior or infinite loops in your terminal or IDE? We want the logs. 
