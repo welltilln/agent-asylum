@@ -1,4 +1,6 @@
 <div align="center">
+  
+![Agent Asylum Social Preview](assets/social_preview.png)
 
 # AGENT ASYLUM
 **"An open-source archive of complex failures, deadlocks, and unexpected behaviors in autonomous AI agents."**
