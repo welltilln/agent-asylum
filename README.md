@@ -11,6 +11,13 @@
 
 > *A collaborative database documenting edge cases, logic loops, and systemic failures of Autonomous AI Agents and LLM tool-calling architectures.*
 
+---
+
+> [!WARNING]
+> **Legal Disclaimer & Privacy:** This repository contains sanitized diagnostic logs for research and educational purposes. All sensitive user data, API keys, and private identifiers have been removed or anonymized. This project is not affiliated with Google or its subsidiaries.
+
+---
+
 </div>
 
 ## What is this place?
