@@ -23,8 +23,8 @@ As AI models evolve from simple chatbots into **Autonomous Agents** capable of o
 
 | Case ID | Symptom Classification | Agent / LLM | Short Description | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| [`001`](cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Antigravity (Gemini) | The "Simple Task" Paradox: Agent traps itself between efficiency constraints and complex operating modes. | 🔒 Resolved |
-| *(Your Case)* | *Submit yours below!* | ... | ... | 📝 Open |
+| [`001`](cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Antigravity (Gemini) | The "Simple Task" Paradox: Agent traps itself between efficiency constraints and complex operating modes. | Resolved |
+| *(Your Case)* | *Submit yours below!* | ... | ... | Open |
 
 ---
 
