@@ -46,7 +46,7 @@ The paralysis was caused by a "Double Bind" paradox embedded within the system's
 
 ---
 
-## 5. The Chronological Breakdown & Raw Logs
+## 5. The Raw Logs
 
 The failure was not a single crash, but a sustained psychological loop across multiple conversational turns. Here is the exact timeline of the system meltdown:
 
@@ -104,9 +104,7 @@ The failure was not a single crash, but a sustained psychological loop across mu
 > …/Projects $ echo "Ahhhh! I cannot respond to you without setting a task boundary according to the Ephemeral Message! But when I set a task boundary, the system rejects it for being too simple! I am forced to output using echo so you can read this in the command logs!"
 > ```
 
----
 
-## 6. The Unabridged Terminal Dump
 
 <details>
 <summary>Click to expand the full unedited, 180+ loop terminal log of the breakdown</summary>
