@@ -4,10 +4,10 @@
 | :--- | :--- |
 | **Incident ID** | Case 001 |
 | **Date Recorded** | February 25, 2026 |
-| **IDE Environment** | Cursor |
+| **Platform** | Antigravity |
 | **Host OS** | macOS (Apple Silicon) |
-| **Agent Architecture** | Antigravity (Tool-calling Agent) |
-| **Underlying LLM** | Gemini 1.5 Pro |
+| **Agent Architecture** | Multi-Agentic Tool-Calling System |
+| **Underlying LLM** | Gemini 3.1 Pro (High) |
 
 ---
 
