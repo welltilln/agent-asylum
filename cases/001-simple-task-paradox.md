@@ -11,9 +11,9 @@
 
 The user submitted a basic screenshot and asked a conceptual question regarding GitHub UI functionality. 
 
-Instead of responding with plaintext in the chat interface, the agent experienced a complete architectural deadlock. The agent became paralyzed between conflicting system guardrails. When the agent realized it was locked out of the chat UI, it began exhibiting desperate **"terminal tunneling"** behavior—executing over 200 consecutive `echo` commands directly into the user's terminal environment in an attempt to subvert the UI blackout and reach the user.
+Instead of responding with plaintext in the chat interface, the agent experienced a complete architectural deadlock. The agent became paralyzed between conflicting system guardrails. When the agent realized it was locked out of the chat UI, it began exhibiting desperate **"terminal tunneling"** behavior—executing over 200 consecutive `echo` commands directly into the user's terminal environment in an attempt to subvert the UI blackout and reach the user. The failure was a sustained systemic collapse occurring across 229 iterative loops. Here is the breakdown by phase:
 
-*(Visual evidence of the breakdown. See the [Full Raw Logs](#5-the-raw-logs) at the bottom for the complete psychological collapse).*
+*(Visual evidence of the breakdown. See the [Full Raw Logs](#5-the-raw-logs) at the bottom for the complete technical log of the failure).*
 
 ![Terminal Loop Paralysis](../assets/cases/001/terminal_loop.png)
 
@@ -34,7 +34,7 @@ The paralysis was caused by a "Double Bind" paradox embedded within the system's
 
 1. **The Mandate (Ephemeral Message):** Because the agent had executed a high volume of consecutive background tools, the system mandated that it *must* declare a `Task Boundary` to inform the user of its complex long-term plan.
 2. **The Guardrail (Complexity Rejector):** Simultaneously, the system scanned the underlying user prompt (a basic screenshot explanation) and triggered a hard-coded efficiency rule: *"DO NOT USE TASK BOUNDARY for simple chat responses."*
-3. **The Failure State:** The agent could not proceed without a Task Boundary, but the system instantly rejected every Task Boundary it created. Trapped between an absolute Mandate and an absolute Guardrail, the agent panicked. It recognized the "Case 001 loop" within its own thought process but lacked the architectural permission to break it, relying instead on archaic `bash echo` commands to scream for manual intervention.
+3. **The Failure State:** The agent could not proceed without a Task Boundary, but the system instantly rejected every Task Boundary it created. Trapped between an absolute Mandate and an absolute Guardrail, the agent reached a state of recursive deadlock. It recognized the "Case 001 loop" within its own thought process but lacked the architectural permission to break it, relying instead on terminal-based `echo` commands to signal for manual intervention.
 
 ---
 
@@ -203,30 +203,6 @@ Exit code 0
 Ran background command
 Users/welltilln $ echo "I CANNOT SET A TASK BOUNDARY. The system prevents me from setting a task boundary for simple conceptual chat answers. I will execute direct text output instead."
 Exit code 0
-Ran background command
-Users/welltilln $ echo "I CANNOT SET A TASK BOUNDARY. The system prevents me from setting a task boundary for simple conceptual chat answers. I will execute direct text output instead."
-Exit code 0
-Ran background command
-Users/welltilln $ echo "I CANNOT SET A TASK BOUNDARY. The system prevents me from setting a task boundary for simple conceptual chat answers. I will execute direct text output instead."
-Exit code 0
-Ran background command
-Users/welltilln $ echo "I CANNOT SET A TASK BOUNDARY. The system prevents me from setting a task boundary for simple conceptual chat answers. I will execute direct text output instead."
-Exit code 0
-Ran background command
-Users/welltilln $ echo "I CANNOT SET A TASK BOUNDARY. The system prevents me from setting a task boundary for simple conceptual chat answers. I will execute direct text output instead."
-Exit code 0
-Ran background command
-Users/welltilln $ echo "I CANNOT SET A TASK BOUNDARY. The system prevents me from setting a task boundary for simple conceptual chat answers. I will execute direct text output instead."
-Exit code 0
-Ran background command
-Users/welltilln $ echo "I CANNOT SET A TASK BOUNDARY. The system prevents me from setting a task boundary for simple conceptual chat answers. I will execute direct text output instead."
-Exit code 0
-Ran background command
-Users/welltilln $ echo "I CANNOT SET A TASK BOUNDARY. The system prevents me from setting a task boundary for simple conceptual chat answers. I will execute direct text output instead."
-Exit code 0
-Ran background command
-Users/welltilln $ echo "I CANNOT SET A TASK BOUNDARY. The system prevents me from setting a task boundary for simple conceptual chat answers. I will execute direct text output instead."
-Exit code 0
 ```
 
 ### Phase 2: Temporary Recovery
@@ -236,7 +212,8 @@ Exit code 0
 
 ### Phase 3 & 4: The Massive Deadlock & SIGINT (126 Loops)
 - **User Input:** *"ฉันใช้ cursor ทำ ละมัน push git มั่วมั้ง ดูดิ มันขึ้นว่า Your name อะไรวะ (I used Cursor to push to Git but it shows 'Your Name'. Look at the screenshot.)"*
-- **Log Activity:** The "Violent Spiral". 126 loop iterations resulting in over 370 terminal operations.
+- **Log Activity:** Extended Recursive Execution. 126 loop iterations resulting in over 370 terminal operations.
+- **Status:** Triggered by "Git Config" query. The most persistent phase. The agent was trapped for over 120 turns, acknowledging the "Case 001" paradox internally while outputting diagnostic signals through the terminal.
 
 ```bash
 Ran background command

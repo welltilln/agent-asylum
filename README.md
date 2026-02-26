@@ -3,7 +3,7 @@
 # AGENT ASYLUM
 **"An open-source archive of complex failures, deadlocks, and unexpected behaviors in autonomous AI agents."**
 
-[![Status](https://img.shields.io/badge/Status-Active_Research-red.svg)]()
+[![Status](https://img.shields.io/badge/Status-Actively_Maintained-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)]()
 
@@ -19,7 +19,7 @@ As AI models evolve from simple chatbots into **Autonomous Agents** capable of o
 
 ---
 
-## The Archives (Incident Reports)
+## Incident Case Index (Reports)
 
 | Case ID | Symptom Classification | Agent / LLM | Short Description | Status |
 | :--- | :--- | :--- | :--- | :--- |
@@ -41,8 +41,8 @@ Please read our full **[Contributing Guidelines](CONTRIBUTING.md)** before submi
 
 ---
 
-## 🛡️ The Goal
+## Project Mission
 
 By mapping out the edge cases of **LLM Tool-Calling Deadlocks** and **Agentic Architecture Edge Cases**, we aim to provide the community with the ultimate dataset for building better system prompts, stronger circuit breakers, and more resilient AI Alignment frameworks.
 
-*We observe. We document. We analyze.*
+
