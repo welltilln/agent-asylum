@@ -1,9 +1,13 @@
 # Incident Report: 001 - The "Simple Task" Paradox
 
-**Date Recorded:** February 25, 2026
-**Agent Architecture:** Antigravity (Local Terminal Execution Mode)
-**Underlying LLM:** Gemini
-**Incident Environment:** Local System Terminal
+| Technical Spec | Detail |
+| :--- | :--- |
+| **Incident ID** | Case 001 |
+| **Date Recorded** | February 25, 2026 |
+| **IDE Environment** | Cursor |
+| **Host OS** | macOS (Apple Silicon) |
+| **Agent Architecture** | Antigravity (Tool-calling Agent) |
+| **Underlying LLM** | Gemini 1.5 Pro |
 
 ---
 
@@ -28,7 +32,17 @@ The agent was previously engaged in a series of highly complex, multi-repo modif
 
 ---
 
-## 3. Root Cause Analysis
+## 3. System Mechanics Glossary
+
+To understand this paradox, one must understand the internal constraints of the **Antigravity** agentic architecture:
+
+- **Task Boundary Tool:** A mandatory UI state required by the system whenever an agent performs more than a set number of consecutive background operations. It is designed to keep the user informed of long-running autonomous tasks.
+- **Complexity Guardrail:** A hard-coded safety filter that prevents the agent from initializing a "Complex Mode" (Task Boundary) for trivial chat responses. This is an efficiency measure to reduce UI clutter.
+- **Double Bind Paradox:** A logic state where a system message (Ephemeral Mandate) requires an action that a system security policy (Complexity Guardrail) forbids.
+
+---
+
+## 4. Root Cause Analysis
 
 The paralysis was caused by a "Double Bind" paradox embedded within the system's core alignment protocols.
 

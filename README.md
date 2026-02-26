@@ -21,6 +21,16 @@ As AI models evolve from simple chatbots into **Autonomous Agents** capable of o
 
 ---
 
+## Prerequisites to Understanding
+
+To fully interpret these reports, it helps to understand a few core concepts of **Agentic AI**:
+
+- **Autonomous Agent:** An AI model empowered to use "tools" (terminal, browser, file editor) to achieve a goal independently.
+- **Tool Call:** The technical act of an LLM requesting to execute a specific function in its environment.
+- **System Guardrail:** Hard-coded logic or system prompts designed to keep the agent safe, efficient, and aligned.
+
+---
+
 ## Incident Case Index (Reports)
 
 | Case ID | Symptom Classification | Agent / LLM | Short Description | Status |
