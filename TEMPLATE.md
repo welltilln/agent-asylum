@@ -36,4 +36,3 @@
 
 - **Immediate Fix:** [e.g., User manually sent a SIGINT (Ctrl+C).]
 - **Architectural Patch Consideration:** [e.g., Implement a circuit breaker that hard-stops the agent if it receives 3 consecutive 'Remote Not Found' errors.]
- 

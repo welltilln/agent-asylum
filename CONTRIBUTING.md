@@ -31,4 +31,3 @@ To maintain the integrity of our records and protect our contributors, please ad
 ## Code of Conduct
 
 Be respectful. This is a research community analyzing edge cases in bleeding-edge technology. Debate the architecture, do not attack the contributor.
- 

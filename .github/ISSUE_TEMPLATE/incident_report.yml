@@ -66,3 +66,4 @@ body:
       placeholder: "It looped because Rule A clashed with Rule B. I stopped it with Ctrl+C. We need a circuit breaker."
     validations:
       required: false
+ 
