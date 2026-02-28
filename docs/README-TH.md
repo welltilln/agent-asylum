@@ -1,6 +1,6 @@
 # AGENT ASYLUM ()
 
-**",  Deadlock,  AI Agent "**
+**", Deadlock,  AI Agent"**
 
 <p align="center">
     <a href="../README.md">English</a>
@@ -18,9 +18,9 @@
 
 ## ?
 
- AI  **Autonomous Agents**  Terminal,   Codebase    Syntax Error  Timeout   ** (Systemic Architectural Failures)**
+ AI  **Autonomous Agents**  Terminal,   codebase    Syntax Error  Timeout   ** (Systemic Architectural Failures)**
 
-**Agent Asylum**  (Incident Database)   **  ( GPT-4, Claude 3, Gemini, Devin)   System Prompt
+**Agent Asylum**  (Incident Database)   ****  ( GPT-4, Claude 3, Gemini, Devin)  System Prompt
 
 ---
 
@@ -28,7 +28,7 @@
 
 | Case ID |  | Agent / LLM |  |  |
 | :--- | :--- | :--- | :--- | :--- |
-| [`001`](../cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Google Antigravity | The Simple Task Paradox:  |  |
+| [`001`](../cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Google Antigravity | The Simple Task Paradox:  | Resolved |
 
 ---
 
@@ -42,7 +42,7 @@
 
 ##  (Contribute a Case)
 
- AI Agent  Terminal  IDE  !
+ AI Agent  Terminal  IDE ? !
 
  **[ (Contributing Guidelines)](../CONTRIBUTING.md)** 
 
@@ -55,4 +55,5 @@
 
 ## 
 
- (Edge Cases)  **LLM Tool-Calling Deadlocks**   System Prompt , Circuit Breaker   AI Alignment 
+ (Edge Cases)  **LLM Tool-Calling Deadlocks**  System Prompt , Circuit Breaker   AI Alignment 
+ 
