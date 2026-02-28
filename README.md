@@ -50,10 +50,8 @@ To fully interpret these reports, it helps to understand a few core concepts of 
 
 | Case ID | Symptom Classification | Agent / LLM | Short Description | Status |
 | :--- | :--- | :--- | :--- | :--- |
-<!-- CASE_TABLE_ROWS_START -->
-| [`001`](cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Gemini 3.1 Pro (High) | Agent traps itself between efficiency constraints and complex operating modes. | Resolved |
+| [`001`](cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Google Antigravity | The Simple Task Paradox: Agent traps itself between efficiency constraints and complex operating modes. | Resolved |
 | *(Your Case)* | *Submit yours below!* | ... | ... | Open |
-<!-- CASE_TABLE_ROWS_END -->
 
 ---
 

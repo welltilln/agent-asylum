@@ -24,10 +24,7 @@
 
 | Case ID | การจัดประเภทอาการ | Agent / LLM | คำอธิบายโดยย่อ | สถานะ |
 | :--- | :--- | :--- | :--- | :--- |
-<!-- CASE_TABLE_ROWS_START -->
-| [`001`](../cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Gemini 3.1 Pro (High) | Agent traps itself between efficiency constraints and complex operating modes. | แก้ไขแล้ว |
-| *(Your Case)* | *Submit yours below!* | ... | ... | Open |
-<!-- CASE_TABLE_ROWS_END -->
+| [`001`](../cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Google Antigravity | The Simple Task Paradox: เอเจนท์ติดกับดักระหว่างข้อจำกัดด้านประสิทธิภาพและโหมดการทำงานที่ซับซ้อน | แก้ไขแล้ว |
 
 ---
 

@@ -24,10 +24,7 @@ AI モデルは単純なチャットボットから、ターミナル操作、�
 
 | ケース ID | 症状の分類 | エージェント / LLM | 概要 | ステータス |
 | :--- | :--- | :--- | :--- | :--- |
-<!-- CASE_TABLE_ROWS_START -->
-| [`001`](../cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Gemini 3.1 Pro (High) | Agent traps itself between efficiency constraints and complex operating modes. | 解決済み |
-| *(Your Case)* | *Submit yours below!* | ... | ... | Open |
-<!-- CASE_TABLE_ROWS_END -->
+| [`001`](../cases/001-simple-task-paradox.md) | デッドロック / 無限ループ | Google Antigravity | 単純タスクのパラドックス：エージェントが効率制約と複雑な動作モードの間で自らを追い込む。 | 解決済み |
 
 ---
 
