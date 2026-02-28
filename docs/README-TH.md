@@ -1,6 +1,4 @@
-# AGENT ASYLUM ()
-
-**", Deadlock,  AI Agent"**
+# AGENT ASYLUM (คลังประวัติความล้มเหลว)
 
 <p align="center">
     <a href="../README.md"><img src="https://img.shields.io/badge/Language-English-blue?style=for-the-badge" alt="English"></a>
@@ -12,43 +10,13 @@
 
 ---
 
-## ?
+## คืออะไร?
+ฐานข้อมูลที่รวบรวมกรณีศึกษาเกี่ยวกับความล้มเหลว ลูปไม่สิ้นสุด และข้อผิดพลาดทางตรรกะของ AI Agents และระบบ LLM Tool-calling
 
- AI  **Autonomous Agents**  Terminal,   codebase    Syntax Error  Timeout   ** (Systemic Architectural Failures)**
+## ดัชนีกรณีศึกษา (Incident Case Index)
+| Case ID | ประเภท | AI ที่เกี่ยวข้อง | สถานะ |
+| :--- | :--- | :--- | :--- |
+| [`001`](../cases/001-simple-task-paradox.md) | Paradox / Infinite Loop | Google Antigravity | แก้ไขแล้ว |
 
-**Agent Asylum**  (Incident Database)   ****  ( GPT-4, Claude 3, Gemini, Devin)  System Prompt
-
----
-
-##  (Incident Case Index)
-
-| Case ID |  | Agent / LLM |  |  |
-| :--- | :--- | :--- | :--- | :--- |
-| [`001`](../cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Google Antigravity | The Simple Task Paradox:  | Resolved |
-
----
-
-##  (Technical Preventions)
-
- 
-
-- **[Circuit Breaker (Python)](../preventions/circuit_breaker.py):**  Tool-calling 
-
----
-
-##  (Contribute a Case)
-
- AI Agent  Terminal  IDE ? !
-
- **[ (Contributing Guidelines)](../CONTRIBUTING.md)** 
-
-1. Fork 
-2.  [`TEMPLATE.md`](../TEMPLATE.md)
-3.  `cases/`
-4.  Pull Request
-
----
-
-## 
-
- (Edge Cases)  **LLM Tool-Calling Deadlocks**  System Prompt , Circuit Breaker   AI Alignment 
+## ลิขสิทธิ์
+MIT License
