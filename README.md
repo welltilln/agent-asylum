@@ -11,14 +11,14 @@
 
 <p align="center">
     <a href="README.md">English</a>
-    <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-    <a href="docs/README-TH.md">ภาษาไทย</a>
-    <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-    <a href="docs/README-JA.md">日本語</a>
-    <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-    <a href="docs/README-KO.md">한국어</a>
-    <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-    <a href="docs/README-ZH.md">简体中文</a>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <a href="docs/README-TH.md"></a>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <a href="docs/README-JA.md"></a>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <a href="docs/README-KO.md"></a>
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <a href="docs/README-ZH.md"></a>
 </p>
 
 > *A collaborative database documenting edge cases, logic loops, and systemic failures of Autonomous AI Agents and LLM tool-calling architectures.*
