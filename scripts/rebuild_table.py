@@ -76,8 +76,9 @@ def update_readme(readme_path, table_content):
             content = f.read()
             
         # Regex to find the table block
-        # Look for the header and the separator
-        table_pattern = re.compile(r'\| Case ID \|[\s\S]*?\| Open \|', re.IGNORECASE)
+        # It should match any table that starts with "Case ID" or translated equivalents
+        # and ends with "| Open |" or localized equivalents
+        table_pattern = re.compile(r'\| (?:Case ID|ID).*?\|[\s\S]*?\| (?:Open|เปิด).*? \|', re.IGNORECASE)
         
         if table_pattern.search(content):
             new_content = table_pattern.sub(table_content.strip(), content)
