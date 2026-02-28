@@ -1,0 +1,7 @@
+# Language overrides
+docs/** linguist-documentation
+cases/** linguist-documentation
+assets/** linguist-vendored
+CONTRIBUTING.md linguist-documentation
+TEMPLATE.md linguist-documentation
+preventions/** linguist-documentation

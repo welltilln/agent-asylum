@@ -9,6 +9,18 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)]()
 
+<p align="center">
+    <a href="README.md">English</a>
+    <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+    <a href="docs/README-TH.md">ภาษาไทย</a>
+    <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+    <a href="docs/README-JA.md">日本語</a>
+    <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+    <a href="docs/README-KO.md">한국어</a>
+    <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+    <a href="docs/README-ZH.md">简体中文</a>
+</p>
+
 > *A collaborative database documenting edge cases, logic loops, and systemic failures of Autonomous AI Agents and LLM tool-calling architectures.*
 
 ---
