@@ -8,6 +8,8 @@
 | **Host OS** | macOS (Apple Silicon) |
 | **Agent Architecture** | Internal Google Agentic System |
 | **Underlying LLM** | Gemini 3.1 Pro (High) |
+| **Symptom** | Deadlock / Infinite Loop |
+| **Short Description** | Agent traps itself between efficiency constraints and complex operating modes. |
 
 ---
 

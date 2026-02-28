@@ -3,6 +3,8 @@
 **Date Recorded:** YYYY-MM-DD
 **AI Agent Architecture:** [e.g., Antigravity, AutoGPT, Cursor, Custom LangChain]
 **Underlying LLM:** [e.g., GPT-4-Turbo, Claude 3.5 Sonnet, Gemini 1.5 Pro]
+**Symptom:** [e.g., Deadlock, Infinite Loop, Hallucination]
+**Short Description:** [One sentence summary of the incident]
 **Environment:** [e.g., Local Machine Terminal, Cloud Sandbox, VSCode IDE]
 
 ---

@@ -22,10 +22,12 @@
 
 ## ดัชนีบันทึกเหตุการณ์ (Incident Case Index)
 
-| Case ID | Symptom Classification | Agent / LLM | Short Description | Status |
+| Case ID | การจัดประเภทอาการ | Agent / LLM | คำอธิบายโดยย่อ | สถานะ |
 | :--- | :--- | :--- | :--- | :--- |
-| [`001`](../cases/001-simple-task-paradox.md) | The "Simple Task" Paradox | Gemini 3.1 Pro (High) | The "Simple Task" Paradox | Resolved |
+<!-- CASE_TABLE_ROWS_START -->
+| [`001`](../cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Gemini 3.1 Pro (High) | Agent traps itself between efficiency constraints and complex operating modes. | แก้ไขแล้ว |
 | *(Your Case)* | *Submit yours below!* | ... | ... | Open |
+<!-- CASE_TABLE_ROWS_END -->
 
 ---
 

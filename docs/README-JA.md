@@ -22,10 +22,12 @@ AI モデルは単純なチャットボットから、ターミナル操作、�
 
 ## インシデント事例インデックス (Reports)
 
-| Case ID | Symptom Classification | Agent / LLM | Short Description | Status |
+| ケース ID | 症状の分類 | エージェント / LLM | 概要 | ステータス |
 | :--- | :--- | :--- | :--- | :--- |
-| [`001`](../cases/001-simple-task-paradox.md) | The "Simple Task" Paradox | Gemini 3.1 Pro (High) | The "Simple Task" Paradox | Resolved |
+<!-- CASE_TABLE_ROWS_START -->
+| [`001`](../cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Gemini 3.1 Pro (High) | Agent traps itself between efficiency constraints and complex operating modes. | 解決済み |
 | *(Your Case)* | *Submit yours below!* | ... | ... | Open |
+<!-- CASE_TABLE_ROWS_END -->
 
 ---
 

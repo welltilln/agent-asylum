@@ -22,10 +22,12 @@
 
 ## 事件案例索引 (Reports)
 
-| Case ID | Symptom Classification | Agent / LLM | Short Description | Status |
+| 案例 ID | 症状分类 | 艾真体 / LLM | 简短描述 | 状态 |
 | :--- | :--- | :--- | :--- | :--- |
-| [`001`](../cases/001-simple-task-paradox.md) | The "Simple Task" Paradox | Gemini 3.1 Pro (High) | The "Simple Task" Paradox | Resolved |
+<!-- CASE_TABLE_ROWS_START -->
+| [`001`](../cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Gemini 3.1 Pro (High) | Agent traps itself between efficiency constraints and complex operating modes. | 已解决 |
 | *(Your Case)* | *Submit yours below!* | ... | ... | Open |
+<!-- CASE_TABLE_ROWS_END -->
 
 ---
 
