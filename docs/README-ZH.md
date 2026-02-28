@@ -22,9 +22,10 @@
 
 ## 事件案例索引 (Reports)
 
-| 案例 ID | 症状分类 | 艾真体 / LLM | 简短描述 | 状态 |
+| Case ID | Symptom Classification | Agent / LLM | Short Description | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| [`001`](../cases/001-simple-task-paradox.md) | 死锁 / 无限循环 | Google Antigravity | 简单任务悖论：艾真体在效率限制和复杂操作模式之间陷入困境。 | 已解决 |
+| [`001`](../cases/001-simple-task-paradox.md) | The "Simple Task" Paradox | Gemini 3.1 Pro (High) | The "Simple Task" Paradox | Resolved |
+| *(Your Case)* | *Submit yours below!* | ... | ... | Open |
 
 ---
 

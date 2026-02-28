@@ -22,9 +22,10 @@
 
 ## ดัชนีบันทึกเหตุการณ์ (Incident Case Index)
 
-| Case ID | การจัดประเภทอาการ | Agent / LLM | คำอธิบายโดยย่อ | สถานะ |
+| Case ID | Symptom Classification | Agent / LLM | Short Description | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| [`001`](../cases/001-simple-task-paradox.md) | Deadlock / Infinite Loop | Google Antigravity | The Simple Task Paradox: เอเจนท์ติดกับดักระหว่างข้อจำกัดด้านประสิทธิภาพและโหมดการทำงานที่ซับซ้อน | แก้ไขแล้ว |
+| [`001`](../cases/001-simple-task-paradox.md) | The "Simple Task" Paradox | Gemini 3.1 Pro (High) | The "Simple Task" Paradox | Resolved |
+| *(Your Case)* | *Submit yours below!* | ... | ... | Open |
 
 ---
 

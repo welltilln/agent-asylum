@@ -22,9 +22,10 @@ AI モデルは単純なチャットボットから、ターミナル操作、�
 
 ## インシデント事例インデックス (Reports)
 
-| ケース ID | 症状の分類 | エージェント / LLM | 概要 | ステータス |
+| Case ID | Symptom Classification | Agent / LLM | Short Description | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| [`001`](../cases/001-simple-task-paradox.md) | デッドロック / 無限ループ | Google Antigravity | 単純タスクのパラドックス：エージェントが効率制約と複雑な動作モードの間で自らを追い込む。 | 解決済み |
+| [`001`](../cases/001-simple-task-paradox.md) | The "Simple Task" Paradox | Gemini 3.1 Pro (High) | The "Simple Task" Paradox | Resolved |
+| *(Your Case)* | *Submit yours below!* | ... | ... | Open |
 
 ---
 

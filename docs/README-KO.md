@@ -22,9 +22,10 @@ AI 모델이 단순한 챗봇에서 터미널 조작, 웹 브라우징, 코드�
 
 ## 사건 사례 색인 (Reports)
 
-| 사례 ID | 증상 분류 | 에이전트 / LLM | 요약 | 상태 |
+| Case ID | Symptom Classification | Agent / LLM | Short Description | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| [`001`](../cases/001-simple-task-paradox.md) | 데드락 / 무한 루프 | Google Antigravity | 단순 작업의 역설: 에이전트가 효율성 제약과 복잡한 작동 모드 사이에서 스스로 갇힘. | 해결됨 |
+| [`001`](../cases/001-simple-task-paradox.md) | The "Simple Task" Paradox | Gemini 3.1 Pro (High) | The "Simple Task" Paradox | Resolved |
+| *(Your Case)* | *Submit yours below!* | ... | ... | Open |
 
 ---
 
